@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev":"nodemon src/index.ts --exec ts-node"
+    "dev": "nodemon src/index.ts --exec ts-node"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@typegoose/typegoose": "^9.13.1",
     "apollo-server-express": "^3.11.1",
     "express": "^4.18.2",
+    "mongodb": "^3.7.3",
+    "mongoose": "^6.7.3",
     "reflect-metadata": "^0.1.13",
     "type-graphql": "^1.1.1",
     "typeorm": "^0.3.10"
